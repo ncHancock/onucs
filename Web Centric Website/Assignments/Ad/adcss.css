@@ -1,0 +1,41 @@
+body{
+	background-color: #29A3D2;
+	padding: 100px 50px 50px 50px;
+	font-family: "Arial", arial, sans-serif;
+	color: white;
+}
+div{
+	text-transform: uppercase;
+	font-size: 36pt;
+	font-weight: 100;
+	line-height: 1.2;
+}
+.styleblue{
+	color: #275994;
+}
+.styleblack{
+	color: black;
+}
+#impact{
+	font-weight: 900;
+	font-size: 64pt;
+}
+#location{
+	position: relative;
+	top: 60px;
+	font-size: 20pt;
+	font-weight: normal;
+}
+#date{
+	position: relative;
+	top: 60px;
+	left: 20px;
+	font-size: 20pt;
+	font-weight: normal;
+	float:left;
+}
+img{
+	position: relative;
+	bottom: 49px;
+	left: 40px;
+}
