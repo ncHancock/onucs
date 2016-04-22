@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Insert a Garden</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-Width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="JS/AjaxPrimary.js" type="text/javascript"></script>
+    </head>
+    <body onload="onLoad()">
+        <div>
+            Dmg ID: <select id="Dmg"> </select> <br>
+            Name: <input id="Name" type=text value="Name"> <br>
+            Slash: <input id="Slash" type=text value="12"> <br>
+            Puncture: <input id="Puncture" type=text value="4"> <br>
+            Impact: <input id="Impact" type=text value="0"> <br>
+            Trigger: <input id="Trigger" type=text value="0"> <br>
+			FireRate: <input id="FireRate" type=text value="0"> <br>
+			Critical: <input id="Critical" type=text value="0"> <br>
+			Status: <input id="Status" type=text value="0"> <br>
+           <button type="button" onclick="insertPrimary()">Insert</button>
+           
+           <p id="results">
+               
+           </p>
+           
+           <button type="button" onclick="showPrimary()">Show Primary</button>
+           
+
+        </div>
+    </body>
+</html>
