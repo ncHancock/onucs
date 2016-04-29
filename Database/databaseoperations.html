@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database Insert</title>
+    <script src="https-_ajax.googleapis.com_ajax_libs_jquery_1.12.0_jquery.min.js"></script>
+    <script src="databaseoperations.js" type="text/javascript"></script>
+</head>
+<body onload="onLoad()">
+<form id="dbInsert" name="dbInsert">
+    DmgType:
+    <select type="text" id="DmgID" name="DmgID"> </select>
+    <br>
+    <br>
+    Name:
+    <input id="Name" name="Name">
+    <br>
+    <br>
+    Slash:
+    <input type="text" id="Slash" name="Slash">
+    <br>
+    <br>
+    Puncture:
+    <input type="text" id="Puncture" name="Puncture">
+    <br>
+    <br>
+	Impact:
+    <input type="text" id="Impact" name="Impact">
+    <br>
+    <br>
+    <button type="button" onclick="insertPrimary()">
+        Insert
+    </button>
+    <p id="results"></p>
+</form>
+</body>
+</html>
+
